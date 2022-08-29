@@ -6,6 +6,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
+@FeignClient
 public class CitiConfigServerApplication {
 
 	public static void main(String[] args) {
