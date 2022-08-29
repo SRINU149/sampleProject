@@ -8,7 +8,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @EnableConfigServer
 @FeignClient
 public class CitiConfigServerApplication {
-
+System.out.println("SBE");
 	public static void main(String[] args) {
 		SpringApplication.run(CitiConfigServerApplication.class, args);
 	}
